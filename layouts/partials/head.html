@@ -16,6 +16,8 @@
 
   {{ partial "seo" . }}
 
+  {{ partial "mathjax.html" . }}
+
   {{- if .IsHome -}}
   <title>{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Site.Title }}" />
